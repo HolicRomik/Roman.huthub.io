@@ -138,11 +138,10 @@ margin-right: 9px;
 	display: flex;
 	justify-content: flex-start; 
 	flex-wrap: wrap;
+	background-color: red;
 }
 
 .photo-block {
-	margin-right: 120px;
-	height: 430px;
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
@@ -564,6 +563,6 @@ margin-right: 9px;
 
 @media (max-width: 600px){
 	.comp {
-		width: 100px;
+		width: 250px;
 	}
 }
