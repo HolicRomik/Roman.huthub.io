@@ -562,7 +562,7 @@ margin-right: 9px;
 	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 600px){
 	.comp {
 		width: 100px;
 	}
