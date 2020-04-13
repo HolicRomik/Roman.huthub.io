@@ -98,7 +98,7 @@ body {
 	display: flex;
 	border-bottom: 2px solid #ebebeb;
 	padding-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 25px;
 }
 
 .container__silka {
@@ -155,7 +155,7 @@ margin-right: 9px;
 
 .comp {
 	padding-top: 7%;
-	padding-left: 4%;
+	margin-left: 80px;
 }
 
 /* block 2 */
@@ -386,6 +386,7 @@ margin-right: 9px;
 	height: 250px;
 	flex-wrap: wrap;
 	margin-left: 25px;
+	width: 200px;
 }
 
 .link-text {
@@ -557,5 +558,11 @@ margin-right: 9px;
 @media (max-width: 600px){
 	.comp {
 		width: 250px;
+	}
+}
+
+@media (max-width: 600px){
+	.class {
+		width: 225px;
 	}
 }
