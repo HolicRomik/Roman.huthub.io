@@ -155,13 +155,13 @@ margin-right: 9px;
 
 .comp {
 	padding-top: 7%;
-	margin-left: 80px;
+	margin-left: 25px;
 }
 
 /* block 2 */
 
 .comp_text {
-	margin-left: 80px;
+	margin-left: 25px;
 	margin-top: 60px;
 	margin-bottom: 20px;
 }
@@ -198,8 +198,8 @@ margin-right: 9px;
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 75px;
+	margin-left: 25px;
 	flex-flow: wrap;
 }
 
@@ -236,7 +236,7 @@ margin-right: 9px;
 .text-items {
 	margin-top: 35px;
 	margin-right: 50px;
-	margin-left: 50px;
+	margin-left: 25px;
 }
 
 .class {
@@ -259,14 +259,15 @@ margin-right: 9px;
 .container2 {
     display: flex;
     justify-content: space-between;
-    margin-left: 25px;
 	margin-right: 25px;
 	flex-wrap: wrap;
+	
 }
 
 .for {
    margin-bottom: 40px;
-   margin-left: 30px;
+   margin-left: 25px;
+   margin-right: 25px;
 }
 
 .for_text {
@@ -322,7 +323,8 @@ margin-right: 9px;
 .footer-blocks {
     margin-top: 25px;
     margin-bottom: 25px;
-	margin-left: 60px;
+	margin-left: 25px;
+	margin-right: 25px;
 	height: 250px;
 	width: 280px;
 }
@@ -330,7 +332,8 @@ margin-right: 9px;
 .footer-blocke {
     margin-top: 25px;
     margin-bottom: 25px;
-	margin-left: 60px;
+	margin-left: 25px;
+	margin-right: 25px;
 	height: 250px;
 	width: 190px;
 }
