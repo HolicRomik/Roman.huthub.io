@@ -66,6 +66,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 100%;
 }
 
 /* 1 block */
@@ -325,7 +326,7 @@ margin-right: 9px;
     margin-bottom: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
-	height: 250px;
+	height: 100%;
 	width: 280px;
 }
 
@@ -334,7 +335,7 @@ margin-right: 9px;
     margin-bottom: 25px;
 	margin-left: 25px;
 	margin-right: 25px;
-	height: 250px;
+	height: 100%;
 	width: 190px;
 }
 
