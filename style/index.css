@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: orange;
+	background-color: grey;
 }
 
 .wrapper {
@@ -312,20 +312,29 @@ margin-right: 9px;
 
 .footer-top {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	background-color: #222222;
 	flex-wrap: wrap;
 }
 
 /* footer top block 1 */
 
-.footer-block {
-    display: block;
-    justify-content: flex-start;
+.footer-blocks {
     margin-top: 25px;
     margin-bottom: 25px;
-	margin-left: 25px;
+	margin-left: 60px;
 	height: 250px;
+	background-color: red;
+	width: 280px;
+}
+
+.footer-blocke {
+    margin-top: 25px;
+    margin-bottom: 25px;
+	margin-left: 60px;
+	height: 250px;
+	background-color: red;
+	width: 190px;
 }
 
 .footer-item {
@@ -379,16 +388,6 @@ margin-right: 9px;
 
 /* footer top block 2 */
 
-.block2 {
-	color: white;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	height: 250px;
-	flex-wrap: wrap;
-	margin-left: 25px;
-	width: 200px;
-}
-
 .link-text {
 	color: white;
 	font-weight: lighter;
@@ -411,15 +410,6 @@ margin-right: 9px;
 }
 
 /* footer top block 3 */
-
-.block3 {
-	display: block;
-	justify-content: flex-start;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-left: 25px;
-	height: 250px;
-}
 
 .alomba {
 	color: white;
@@ -462,14 +452,6 @@ margin-right: 9px;
 }
 
 /* footer top block 4 */
-
-.block4 {
-	margin-right: 15px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-    margin-left: 25px;
-	height: 250px;
-}
 
 .mongo {
 	height: 25px;
