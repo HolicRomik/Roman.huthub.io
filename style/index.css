@@ -324,7 +324,6 @@ margin-right: 9px;
     margin-bottom: 25px;
 	margin-left: 60px;
 	height: 250px;
-	background-color: red;
 	width: 280px;
 }
 
@@ -333,7 +332,6 @@ margin-right: 9px;
     margin-bottom: 25px;
 	margin-left: 60px;
 	height: 250px;
-	background-color: red;
 	width: 190px;
 }
 
@@ -400,6 +398,7 @@ margin-right: 9px;
 
 .pp {
 	line-height: 25px;
+	color: white;
 }
 
 .lorem {
