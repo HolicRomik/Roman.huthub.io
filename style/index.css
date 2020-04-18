@@ -256,7 +256,6 @@ margin-right: 9px;
 	margin-top: 40px;
 }
 
-
 /* block 1*4 */
 
 .container2 {
@@ -270,6 +269,7 @@ margin-right: 9px;
    margin-bottom: 40px;
    margin-right: auto;
    margin-left: auto;
+   width: 225px;
 }
 
 .for_text {
@@ -315,7 +315,7 @@ margin-right: 9px;
 
 .footer-top {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	background-color: #222222;
 	flex-wrap: wrap;
 }
@@ -337,7 +337,7 @@ margin-right: 9px;
 	margin-right: auto;
 	margin-left: auto;
 	height: 100%;
-	width: 190px;
+	width: auto;
 }
 
 .footer-item {
@@ -566,5 +566,23 @@ margin-right: 9px;
 	.header-silk {
 		margin-left: auto;
 		margin-right: auto;
+	}
+}
+
+@media (max-width: 450px){
+	.container2 {
+		display: block;
+	}
+}
+
+@media (max-width: 450px){
+	.footer-blocks {
+		width: 250px;
+	}
+}
+
+@media (max-width: 450px){
+	.footer-blocke {
+		width: 250px;
 	}
 }
