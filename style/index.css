@@ -182,17 +182,108 @@ margin-right: 9px;
 	color: #999999;
 }
 
-.bomber {
-	margin-top: 15px;
-	font-size: 18px;
-	height: 35px;
-	color: white;
-	background-color: #55415f; 
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border: 2px solid #55415f;
+.buttom {
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+}
+
+.buttom:before {
+	animation: rotate 5s infinite linear;
+}
+
+.buttom:after {
+	animation: rotate 10s infinite linear;
+}
+
+.buttom:before,
+.buttom:after {
+	content: "";
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	border: 2px solid red;
+	top: -10px;
+	left: 50%;
+	z-index: 1;
+	transition: all 1s ease 0s;
+	overflow: hidden;
+	margin-left: -40px;
+	margin-top: 25px;
+}
+
+.buttom-text{
+	position: relative;
+	margin-top: 30px;
+	height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0,3);
+    letter-spacing: 3px;
+    transition: all 1s ease 0s;
+    top: 0;
+	overflow: hidden;
+}
+
+.buttom-text:before {
+	left: 0;
+	z-index: 2;
+}
+
+.buttom-text:after {
+	right: 0;
+}
+
+.buttom-text:before,
+.buttom-text:after {
+	content: "";
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background-color: #eeee;
+	transition: all 1s ease 0s;
+}
+
+.buttom-text span {
+	position: relative;
+	z-index: 2;
+}
+
+.buttom:hover:before,
+.buttom:hover:after {
+	left: 100%;
+	opacity: 0;
+}
+
+.buttom:hover .buttom-text:before,
+.buttom:hover .buttom-text:after {
+	background-color: #0c5b52;
+}
+
+.buttom:hover .buttom-text {
+	top: -10px;
+	color: #eeee;
+	transition: all 0.8s ease 0.5s;
+	box-shadow: 0 5px 0 0 orange;
+}
+
+.buttom:active .buttom-text {
+	top: -7px;
+	transition: all -1s ease 0;
+	box-shadow: 0 0 20px 0 #0c5b53;
+}
+
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
 }
 
 /* container 3 */
@@ -530,11 +621,12 @@ margin-right: 9px;
 	}
 }
 
-@media (max-width: 767px){
+@media (max-width: 600px){
 	.comp_text {
 		width: 200px;
 	}
 }
+
 
 @media (max-width: 600px){
 	.comp {
